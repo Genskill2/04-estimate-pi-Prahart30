@@ -5,10 +5,11 @@
 
 float wallis_pi(i)  {
   int n , pi=2,a,b;
-  for(n=1;n<=i;n++)
+  for(n=1;n<=i;n++) {
 	a = (2*n)/(2*n-1);
 	b = (2*n)/(2*n+1);
 	pi = pi * a * b;
+  }
   return pi;
   }
 
