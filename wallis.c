@@ -3,7 +3,12 @@
 #include <stdio.h>
 #include <math.h>
 
-float wallis_pi(int);
+float wallis_pi(int) {
+  int n;
+  for(n=1;n>=1;n++)
+    pi = 8*n^2/(4*n^2 - 1)
+  }
+
 
 int main(void) {
   float pi;
