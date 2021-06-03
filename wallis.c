@@ -7,7 +7,7 @@ float wallis_pi(int n)
 {
 float k=1.0;
    int i;
-    for(i=1;i<=n;i++) 
+    for(i=1;i<n;i++) 
      {
         k *=(float)(4.*i*i)/(4.*i*i-1);
        }
