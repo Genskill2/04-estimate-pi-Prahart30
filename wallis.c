@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-float wallis_pi(int)  {
+float wallis_pi(i)  {
   int n , pi=2,a,b;
   for(n=1;n<=i;n++)
 	a = (2*n)/(2*n-1);
